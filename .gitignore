@@ -49,3 +49,5 @@ po/*~
 rsconnect/
 
 .idea
+
+kaggle.json
