@@ -1,0 +1,216 @@
+------
+LASSO
+------
+Women are less likely to die from COVID-19 than men by 34.25%
+For every additional 10 years in age, the risk of dying from COVID-19 goes up by 67.93%
+Patients with infection cases from overseas inflow are less likely to die from COVID-19 than those with infection cases from contact with other patients by 50%
+Patients with infection cases from contact with other patients are less likely to die from COVID-19 than those with infection cases from other causes by 50%
+Patients from Seoul are more likely to die from COVID-19 than those from Busan by 52.81%
+Patients from Busan are more likely to die from COVID-19 than those from Daegu by 52.81%
+Patients from Daegu are more likely to die from COVID-19 than those from Gwangju by 52.81%
+Patients from Gwangju are more likely to die from COVID-19 than those from Incheon by 52.81%
+Patients from Incheon are more likely to die from COVID-19 than those from Daejeon by 52.81%
+Patients from Daejeon are more likely to die from COVID-19 than those from Gyeonggi-do by 52.81%
+Patients from Gyeonggi-do are more likely to die from COVID-19 than those from Sejong by 52.81%
+Patients from Sejong are more likely to die from COVID-19 than those from Ulsan by 52.81%
+Patients from Ulsan are more likely to die from COVID-19 than those from Gangwon-do by 52.81%
+Patients from Gangwon-do are more likely to die from COVID-19 than those from Chungcheongbuk-do by 52.81%
+Patients from Chungcheongbuk-do are more likely to die from COVID-19 than those from Chungcheongnam-do by 52.81%
+Patients from Chungcheongnam-do are more likely to die from COVID-19 than those from Jeollabuk-do by 52.81%
+Patients from Jeollabuk-do are more likely to die from COVID-19 than those from Jeollanam-do by 52.81%
+Patients from Jeollanam-do are more likely to die from COVID-19 than those from Gyeongsangbuk-do by 52.81%
+Patients from Gyeongsangbuk-do are more likely to die from COVID-19 than those from Gyeongsangnam-do by 52.81%
+Patients from Gyeongsangnam-do are more likely to die from COVID-19 than those from Jeju-do by 52.81%
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1
+         0 513   1
+         1  71   6
+                                          
+               Accuracy : 0.8782          
+                 95% CI : (0.8491, 0.9034)
+    No Information Rate : 0.9882          
+    P-Value [Acc > NIR] : 1               
+                                          
+                  Kappa : 0.1238          
+                                          
+ Mcnemar's Test P-Value : 4.232e-16       
+                                          
+            Sensitivity : 0.85714         
+            Specificity : 0.87842         
+         Pos Pred Value : 0.07792         
+         Neg Pred Value : 0.99805         
+              Precision : 0.07792         
+                 Recall : 0.85714         
+                     F1 : 0.14286         
+             Prevalence : 0.01184         
+         Detection Rate : 0.01015         
+   Detection Prevalence : 0.13029         
+      Balanced Accuracy : 0.86778         
+                                          
+       'Positive' Class : 1               
+                                          
+------
+RIDGE
+------
+Women are less likely to die from COVID-19 than men by 46.15%
+For every additional 10 years in age, the risk of dying from COVID-19 goes up by 61.75%
+Patients with infection cases from overseas inflow are more likely to die from COVID-19 than those with infection cases from contact with other patients by 52.75%
+Patients with infection cases from contact with other patients are more likely to die from COVID-19 than those with infection cases from other causes by 52.75%
+Patients from Seoul are more likely to die from COVID-19 than those from Busan by 52.57%
+Patients from Busan are more likely to die from COVID-19 than those from Daegu by 52.57%
+Patients from Daegu are more likely to die from COVID-19 than those from Gwangju by 52.57%
+Patients from Gwangju are more likely to die from COVID-19 than those from Incheon by 52.57%
+Patients from Incheon are more likely to die from COVID-19 than those from Daejeon by 52.57%
+Patients from Daejeon are more likely to die from COVID-19 than those from Gyeonggi-do by 52.57%
+Patients from Gyeonggi-do are more likely to die from COVID-19 than those from Sejong by 52.57%
+Patients from Sejong are more likely to die from COVID-19 than those from Ulsan by 52.57%
+Patients from Ulsan are more likely to die from COVID-19 than those from Gangwon-do by 52.57%
+Patients from Gangwon-do are more likely to die from COVID-19 than those from Chungcheongbuk-do by 52.57%
+Patients from Chungcheongbuk-do are more likely to die from COVID-19 than those from Chungcheongnam-do by 52.57%
+Patients from Chungcheongnam-do are more likely to die from COVID-19 than those from Jeollabuk-do by 52.57%
+Patients from Jeollabuk-do are more likely to die from COVID-19 than those from Jeollanam-do by 52.57%
+Patients from Jeollanam-do are more likely to die from COVID-19 than those from Gyeongsangbuk-do by 52.57%
+Patients from Gyeongsangbuk-do are more likely to die from COVID-19 than those from Gyeongsangnam-do by 52.57%
+Patients from Gyeongsangnam-do are more likely to die from COVID-19 than those from Jeju-do by 52.57%
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1
+         0 526   2
+         1  58   5
+                                          
+               Accuracy : 0.8985          
+                 95% CI : (0.8713, 0.9216)
+    No Information Rate : 0.9882          
+    P-Value [Acc > NIR] : 1               
+                                          
+                  Kappa : 0.1242          
+                                          
+ Mcnemar's Test P-Value : 1.243e-12       
+                                          
+            Sensitivity : 0.71429         
+            Specificity : 0.90068         
+         Pos Pred Value : 0.07937         
+         Neg Pred Value : 0.99621         
+              Precision : 0.07937         
+                 Recall : 0.71429         
+                     F1 : 0.14286         
+             Prevalence : 0.01184         
+         Detection Rate : 0.00846         
+   Detection Prevalence : 0.10660         
+      Balanced Accuracy : 0.80749         
+                                          
+       'Positive' Class : 1               
+                                          
+------
+ELASTIC-NET
+------
+Women are less likely to die from COVID-19 than men by 38.5%
+For every additional 10 years in age, the risk of dying from COVID-19 goes up by 66.7%
+Patients with infection cases from overseas inflow are more likely to die from COVID-19 than those with infection cases from contact with other patients by 53.8%
+Patients with infection cases from contact with other patients are more likely to die from COVID-19 than those with infection cases from other causes by 53.8%
+Patients from Seoul are more likely to die from COVID-19 than those from Busan by 52.77%
+Patients from Busan are more likely to die from COVID-19 than those from Daegu by 52.77%
+Patients from Daegu are more likely to die from COVID-19 than those from Gwangju by 52.77%
+Patients from Gwangju are more likely to die from COVID-19 than those from Incheon by 52.77%
+Patients from Incheon are more likely to die from COVID-19 than those from Daejeon by 52.77%
+Patients from Daejeon are more likely to die from COVID-19 than those from Gyeonggi-do by 52.77%
+Patients from Gyeonggi-do are more likely to die from COVID-19 than those from Sejong by 52.77%
+Patients from Sejong are more likely to die from COVID-19 than those from Ulsan by 52.77%
+Patients from Ulsan are more likely to die from COVID-19 than those from Gangwon-do by 52.77%
+Patients from Gangwon-do are more likely to die from COVID-19 than those from Chungcheongbuk-do by 52.77%
+Patients from Chungcheongbuk-do are more likely to die from COVID-19 than those from Chungcheongnam-do by 52.77%
+Patients from Chungcheongnam-do are more likely to die from COVID-19 than those from Jeollabuk-do by 52.77%
+Patients from Jeollabuk-do are more likely to die from COVID-19 than those from Jeollanam-do by 52.77%
+Patients from Jeollanam-do are more likely to die from COVID-19 than those from Gyeongsangbuk-do by 52.77%
+Patients from Gyeongsangbuk-do are more likely to die from COVID-19 than those from Gyeongsangnam-do by 52.77%
+Patients from Gyeongsangnam-do are more likely to die from COVID-19 than those from Jeju-do by 52.77%
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1
+         0 512   2
+         1  72   5
+                                          
+               Accuracy : 0.8748          
+                 95% CI : (0.8454, 0.9004)
+    No Information Rate : 0.9882          
+    P-Value [Acc > NIR] : 1               
+                                          
+                  Kappa : 0.0995          
+                                          
+ Mcnemar's Test P-Value : 1.048e-15       
+                                          
+            Sensitivity : 0.71429         
+            Specificity : 0.87671         
+         Pos Pred Value : 0.06494         
+         Neg Pred Value : 0.99611         
+              Precision : 0.06494         
+                 Recall : 0.71429         
+                     F1 : 0.11905         
+             Prevalence : 0.01184         
+         Detection Rate : 0.00846         
+   Detection Prevalence : 0.13029         
+      Balanced Accuracy : 0.79550         
+                                          
+       'Positive' Class : 1               
+                                          
+------
+ADAPTIVE-LASSO
+------
+Women are less likely to die from COVID-19 than men by 27.68%
+For every additional 10 years in age, the risk of dying from COVID-19 goes up by 68.06%
+Patients with infection cases from overseas inflow are less likely to die from COVID-19 than those with infection cases from contact with other patients by 50%
+Patients with infection cases from contact with other patients are less likely to die from COVID-19 than those with infection cases from other causes by 50%
+Patients from Seoul are more likely to die from COVID-19 than those from Busan by 52.51%
+Patients from Busan are more likely to die from COVID-19 than those from Daegu by 52.51%
+Patients from Daegu are more likely to die from COVID-19 than those from Gwangju by 52.51%
+Patients from Gwangju are more likely to die from COVID-19 than those from Incheon by 52.51%
+Patients from Incheon are more likely to die from COVID-19 than those from Daejeon by 52.51%
+Patients from Daejeon are more likely to die from COVID-19 than those from Gyeonggi-do by 52.51%
+Patients from Gyeonggi-do are more likely to die from COVID-19 than those from Sejong by 52.51%
+Patients from Sejong are more likely to die from COVID-19 than those from Ulsan by 52.51%
+Patients from Ulsan are more likely to die from COVID-19 than those from Gangwon-do by 52.51%
+Patients from Gangwon-do are more likely to die from COVID-19 than those from Chungcheongbuk-do by 52.51%
+Patients from Chungcheongbuk-do are more likely to die from COVID-19 than those from Chungcheongnam-do by 52.51%
+Patients from Chungcheongnam-do are more likely to die from COVID-19 than those from Jeollabuk-do by 52.51%
+Patients from Jeollabuk-do are more likely to die from COVID-19 than those from Jeollanam-do by 52.51%
+Patients from Jeollanam-do are more likely to die from COVID-19 than those from Gyeongsangbuk-do by 52.51%
+Patients from Gyeongsangbuk-do are more likely to die from COVID-19 than those from Gyeongsangnam-do by 52.51%
+Patients from Gyeongsangnam-do are more likely to die from COVID-19 than those from Jeju-do by 52.51%
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1
+         0 516   1
+         1  68   6
+                                         
+               Accuracy : 0.8832         
+                 95% CI : (0.8546, 0.908)
+    No Information Rate : 0.9882         
+    P-Value [Acc > NIR] : 1              
+                                         
+                  Kappa : 0.1293         
+                                         
+ Mcnemar's Test P-Value : 1.935e-15      
+                                         
+            Sensitivity : 0.85714        
+            Specificity : 0.88356        
+         Pos Pred Value : 0.08108        
+         Neg Pred Value : 0.99807        
+              Precision : 0.08108        
+                 Recall : 0.85714        
+                     F1 : 0.14815        
+             Prevalence : 0.01184        
+         Detection Rate : 0.01015        
+   Detection Prevalence : 0.12521        
+      Balanced Accuracy : 0.87035        
+                                         
+       'Positive' Class : 1              
+                                         
